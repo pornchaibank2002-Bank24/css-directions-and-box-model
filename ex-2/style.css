@@ -1,1 +1,33 @@
-/* Start coding here */
+body {
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.outer-box {
+    background-color: lightgrey;
+    padding: 16px; 
+    border: 16px solid black; 
+}
+
+
+.middle-box {
+    background-color: crimson;
+    padding: 24px;
+}
+
+
+.inner-box {
+    background-color: khaki;
+    font-size: 72px; 
+    padding: 30px; 
+    text-align: center;
+    color: black;
+    font-family: serif; 
+    min-width: 500px;
+    min-height: 250px;
+}
